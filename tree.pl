@@ -66,6 +66,7 @@
     female(sofia).
     female(margarita).
 
+
 % rules
     predecessor(A, B) :- parent(A, B).
     predecessor(A, B) :- parent(A, C), predecessor(C, B).
